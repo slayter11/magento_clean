@@ -1,0 +1,9 @@
+<h4>Shopping Guide</h4>
+                            <ul>
+                            <li><a href="http://127.0.0.1/balaio/?___SID=Uhow-to-buy">How to buy</a></li>
+                                <li><a href="http://127.0.0.1/balaio/?___SID=Ufaqs">FAQs</a></li>
+                                <li><a href="http://127.0.0.1/balaio/?___SID=Upayments">Payment</a></li>
+                                <li><a href="http://127.0.0.1/balaio/?___SID=Ushipments">Shipment</a></li>
+                                <li><a href="http://127.0.0.1/balaio/?___SID=Uwhere-is-my-order">Where is my order?</a></li>
+                                <li><a href="http://127.0.0.1/balaio/?___SID=Ureturn-policy">Return policy</a></li>
+                            </ul>

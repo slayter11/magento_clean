@@ -1,0 +1,29 @@
+<div class="focus-content">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="focus-img foucs-red-bg"><i class="fa fa-paint-brush fa-fw"></i></div>
+                                        <div class="focus-desc">
+                                            <div class="focus-caption">CUSTOMIZABLE DESIGN</div>
+                                            <h2>Easy Css Customization</h2>
+                                            <p>Everything is so clean that anything is easy to change.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="focus-img foucs-green-bg"><i class="fa fa-bars fa-fw"></i></div>
+                                        <div class="focus-desc">
+                                            <div class="focus-caption">12-COLUMN GRID</div>
+                                            <h2>Responsive Layout</h2>
+                                            <p>Using Bootstrap 12-column grid is very easy and convenient.</p>
+                                        </div>                            
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="focus-img foucs-blue-bg"><i class="fa fa-mobile fa-fw"></i></div>
+                                        <div class="focus-desc">
+                                            <div class="focus-caption">AMAZING SLIDER</div>
+                                            <h2>Sequence Slider</h2>
+                                            <p>You can attract anyone with impressive slider with animation effects.</p>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>

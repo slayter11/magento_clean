@@ -1,0 +1,42 @@
+<div class="banner">
+                            	<div class="sequence-theme">
+                            			<div id="sequence">
+                            
+                            				<div class="banner-arrow-container">
+                                                            <img class="sequence-prev" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/bt-prev.png" alt="Previous Frame" />
+                            				<img class="sequence-next" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/bt-next.png" alt="Next Frame" />
+                                                            </div>
+                            
+                            				<ul class="sequence-canvas">
+                            					<li class="animate-in bg1">
+                            <div class="banner-container">
+                            						<h2 class="title">Access <span>magento</span></h2>
+                            						<h3 class="subtitle">Provide your customers with rich shopping experience!</h3>
+                            						<img class="model" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/christmastree.png" alt="Model 1" />
+                            </div>
+                            					</li>
+                            					<li class="bg2">
+                            <div class="banner-container">
+                            						<h2 class="title">Fully <span>responsive</span> design</h2>
+                            						<h3 class="subtitle">This theme can adapt any mobile screen resolution</h3>
+                            						<img class="model" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/computer.png" alt="Model 2" />
+                            </div>
+                            					</li>
+                            					<li class="bg3">
+                            <div class="banner-container">
+                            						<h2 class="title">Customizable Theme</h2>
+                            						<h3 class="subtitle">This theme is extremely customizable and very easy to use.</h3>
+                            						<img class="model" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/magentosheet.png" alt="Model 3" />
+                            </div>
+                            					</li>
+                            				</ul>
+                            
+                            				<ul class="sequence-pagination">
+                            					<li>1</li>
+                            					<li>2</li>
+                            					<li>3</li>
+                            				</ul>
+                            
+                            			</div>
+                            		</div>
+                            </div>
