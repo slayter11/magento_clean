@@ -1,5 +1,5 @@
 <ul class="nav navbar-nav menu">
 <li class="level0 nav-0 first level-top active">
-    <a href="http://127.0.0.1/balaio/" title=""><span>Home</span></a>
+    <a href="http://127.0.0.1/balaio/index.php/" title=""><span>Home</span></a>
 </li>
-</ul>
+<li  class="level0 nav-1 first last level-top"><a href="http://127.0.0.1/balaio/index.php/how-it-works.html?___SID=U"  class="level-top" ><span>How it Works</span></a></li></ul>

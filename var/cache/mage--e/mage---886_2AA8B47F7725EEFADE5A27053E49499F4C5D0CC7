@@ -10,22 +10,22 @@
                             				<ul class="sequence-canvas">
                             					<li class="animate-in bg1">
                             <div class="banner-container">
-                            						<h2 class="title">Access <span>magento</span></h2>
-                            						<h3 class="subtitle">Provide your customers with rich shopping experience!</h3>
+                            						<h2 class="title">Access <span>Balaio</span></h2>
+                            						<h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut !</h3>
                             						<img class="model" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/christmastree.png" alt="Model 1" />
                             </div>
                             					</li>
                             					<li class="bg2">
                             <div class="banner-container">
-                            						<h2 class="title">Fully <span>responsive</span> design</h2>
-                            						<h3 class="subtitle">This theme can adapt any mobile screen resolution</h3>
+                            						<h2 class="title">Lorem <span>ipsum</span> amet</h2>
+                            						<h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </h3>
                             						<img class="model" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/computer.png" alt="Model 2" />
                             </div>
                             					</li>
                             					<li class="bg3">
                             <div class="banner-container">
-                            						<h2 class="title">Customizable Theme</h2>
-                            						<h3 class="subtitle">This theme is extremely customizable and very easy to use.</h3>
+                            						<h2 class="title">Lorem ipsum sit amet</h2>
+                            						<h3 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</h3>
                             						<img class="model" src="http://127.0.0.1/balaio/skin/frontend/accessshop/default/images/magentosheet.png" alt="Model 3" />
                             </div>
                             					</li>
