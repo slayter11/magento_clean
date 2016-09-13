@@ -40,7 +40,7 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[localhost]]></host>
+                    <host><![CDATA[92.247.49.46]]></host>
                     <username><![CDATA[balaio_user]]></username>
                     <password><![CDATA[5ySPH7n3US8bLp8N]]></password>
                     <dbname><![CDATA[balaio_db]]></dbname>
