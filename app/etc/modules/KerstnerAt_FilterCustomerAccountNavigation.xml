@@ -1,0 +1,9 @@
+<config>
+  <modules>
+    <KerstnerAt_FilterCustomerAccountNavigation>
+      <version>1.0.0</version>
+      <active>true</active>
+      <codePool>local</codePool>
+    </KerstnerAt_FilterCustomerAccountNavigation>
+  </modules>
+</config>

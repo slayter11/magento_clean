@@ -118,11 +118,11 @@
     <!-- My Applications-->
     <customer_account>
         <reference name="customer_account_navigation">
-            <action method="addLink" translate="label" module="oauth">
+    <!--        <action method="addLink" translate="label" module="oauth">
                 <name>OAuth Customer Tokens</name>
                 <path>oauth/customer_token</path>
                 <label>My Applications</label>
-            </action>
+            </action> -->
         </reference>
     </customer_account>
 
@@ -132,6 +132,6 @@
         <reference name="my.account.wrapper">
             <block type="oauth/customer_token_list" name="oauth_customer_token_list" template="oauth/customer/token/list.phtml"/>
         </reference>
-    </oauth_customer_token_index>
+    </oauth_customer_token_index> 
     <!-- EOF My Applications-->
 </layout>
