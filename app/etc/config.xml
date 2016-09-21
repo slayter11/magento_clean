@@ -33,14 +33,14 @@
         <resources>
             <default_setup>
                 <connection>
-                    <host>192.168.100.2</host>
-                    <username>balaio_user</username>
-                    <password>5ySPH7n3US8bLp8N</password>
-                    <dbname>balaio_db</dbname>
+                    <host>localhost</host>
+                    <username/>
+                    <password/>
+                    <dbname>magento</dbname>
                     <model>mysql4</model>
                     <initStatements>SET NAMES utf8</initStatements>
                     <type>pdo_mysql</type>
-                    <active>1</active>
+                    <active>0</active>
                     <persistent>0</persistent>
                 </connection>
             </default_setup>
