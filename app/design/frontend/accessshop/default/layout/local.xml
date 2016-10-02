@@ -188,4 +188,17 @@
             <action method="addReviewSummaryTemplate"><type>default</type><template>review/helper/summary_nolinks.phtml</template></action>
         </reference>
     </catalog_product_view>
+    <checkout_cart_index>
+        <reference name="content">
+            <remove name="checkout.cart.coupon"/>
+		 <remove name="checkout.cart.shipping" />
+        </reference>
+    </checkout_cart_index>
+
+<default>
+    <reference name="header">
+        <remove name="top.search"/>
+    </reference>
+ </default>
 </layout>
+
