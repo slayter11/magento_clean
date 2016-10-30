@@ -17,7 +17,7 @@
         decorateGeneric($("<?php echo $this->getUniqueHtmlId('product-tags_'); ?>").select('li'), ['first', 'last']);
     </script>
     <?php endif; ?>
-    <form id="addTagForm" action="<?php echo $this->getFormAction(); ?>" method="get">
+    <?php /*<form id="addTagForm" action="<?php echo $this->getFormAction(); ?>" method="get">
         <div class="form-add">
             <label for="productTagName"><?php echo $this->__('Add Your Tags:') ?></label>
             <div class="input-box">
@@ -29,8 +29,8 @@
                 </span>
             </button>
         </div>
-    </form>
-    <p class="note"><?php echo $this->__("Use spaces to separate tags. Use single quotes (') for phrases.") ?></p>
+    </form>*/ ?>
+    <p class="note"><?php /* echo $this->__("Use spaces to separate tags. Use single quotes (') for phrases.")*/ ?></p> 
     <script type="text/javascript">
     //<![CDATA[
         var addTagFormJs = new VarienForm('addTagForm');

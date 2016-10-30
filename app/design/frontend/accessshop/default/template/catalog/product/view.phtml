@@ -33,9 +33,9 @@
                     <div class="product-name">
                         <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
                     </div>
-                    
+
                     <?php echo $this->getReviewsSummaryHtml($_product, false, true)?>
-                    
+
                     <?php if ($_product->getShortDescription()):?>
                         <div class="short-description">
                             <!--<h2><?php //echo $this->__('Quick Overview') ?></h2>-->
@@ -73,8 +73,8 @@
                         <?php if ($_product->isSaleable() && $this->hasOptions()):?>
                             <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
                         <?php endif;?>
-                        
-                        
+
+
                     </div>
                 </div>
                 <div class="clearer"></div>
@@ -82,7 +82,7 @@
                     <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
                 <?php endif;?>
             </div>
-            
+
         </form>
         <script type="text/javascript">
         //<![CDATA[
@@ -150,7 +150,7 @@
         $customtab1 = Mage::getModel('cms/block')->load('custom-tab1');
         $customtab2 = Mage::getModel('cms/block')->load('custom-tab2');
         ?>
-        
+
         <ul class="nav nav-tabs" role="tablist">
             <?php $i=0; foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html):?>
             <li class="<?php if($i==0){echo "active";}?>">
@@ -161,12 +161,12 @@
                         <?php echo ucwords($alias); ?>
                     <?php endif;?>
                 </a>
-            </li>             
+            </li>
             <?php $i++; endforeach;?>
-            <li><a data-toggle="tab" class="reviews" name="reviews-tab" href="#reviews">Reviews</a></li>
             <li><a data-toggle="tab" href="#product-tags">Tags</a></li>
+            <?php /*<li><a data-toggle="tab" class="reviews" name="reviews-tab" href="#reviews">Reviews</a></li>            
             <li><a data-toggle="tab" href="#custom-tab1"><?php echo($customtab1->getTitle()!='')?$customtab1->getTitle():'Custom Tab 1';?></a></li>
-            <li><a data-toggle="tab" href="#custom-tab2"><?php echo($customtab2->getTitle()!='')?$customtab2->getTitle():'Custom Tab 2';?></a></li>
+            <li><a data-toggle="tab" href="#custom-tab2"><?php echo($customtab2->getTitle()!='')?$customtab2->getTitle():'Custom Tab 2';?></a></li>*/?>
         </ul>
         <div class="tab-content">
             <?php $i=0; foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html):?>
@@ -175,7 +175,7 @@
             </div>
             <?php $i++; endforeach;?>
             <div id="reviews" class="tab-pane fade in">
-                <?php echo $this->getChildHtml('reviews'); ?>                     
+                <?php echo $this->getChildHtml('reviews'); ?>
             </div>
             <div id="product-tags" class="tab-pane fade in">
                 <?php echo $this->getChildHtml('product_additional_data') ?>
@@ -184,18 +184,18 @@
                 <?php if($customtab1->getContent()!=''){echo $customtab1->getContent();}
                 else{?>
                 <h2>Custom Tab Content 1</h2>
-                <p>Custom Variants and Options let you create product customization options and fields quickly and easily. Any product can have custom variants and options – this can be configured in its product configuration. Custom variants and options can be created for products as required or non-required options. They can affect the total price of the product by a fixed amount or percentage.
+                <p>Custom Variants and Options let you create product customization options and fields quickly and easily. Any product can have custom variants and options ï¿½ this can be configured in its product configuration. Custom variants and options can be created for products as required or non-required options. They can affect the total price of the product by a fixed amount or percentage.
                     <br />
-                    In other words, custom variants and options allow you to make products that are unique and individualized. Whether it’s a gift with a special message, a sweatshirt with custom embroidered text, or anything in between – possibilities are limitless.</p>
+                    In other words, custom variants and options allow you to make products that are unique and individualized. Whether itï¿½s a gift with a special message, a sweatshirt with custom embroidered text, or anything in between ï¿½ possibilities are limitless.</p>
                     <?php }?>
                 </div>
                 <div id="custom-tab2" class="tab-pane fade in">
                     <?php if($customtab2->getContent()!=''){echo $customtab2->getContent();}
                     else{?>
                     <h2>Custom Tab Content 2</h2>
-                    <p>Custom Variants and Options let you create product customization options and fields quickly and easily. Any product can have custom variants and options – this can be configured in its product configuration. Custom variants and options can be created for products as required or non-required options. They can affect the total price of the product by a fixed amount or percentage.
+                    <p>Custom Variants and Options let you create product customization options and fields quickly and easily. Any product can have custom variants and options ï¿½ this can be configured in its product configuration. Custom variants and options can be created for products as required or non-required options. They can affect the total price of the product by a fixed amount or percentage.
                         <br />
-                        In other words, custom variants and options allow you to make products that are unique and individualized. Whether it’s a gift with a special message, a sweatshirt with custom embroidered text, or anything in between – possibilities are limitless.</p>
+                        In other words, custom variants and options allow you to make products that are unique and individualized. Whether itï¿½s a gift with a special message, a sweatshirt with custom embroidered text, or anything in between ï¿½ possibilities are limitless.</p>
                         <?php }?>
                     </div>
                 </div>
